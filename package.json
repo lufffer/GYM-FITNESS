@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -48,6 +49,7 @@
     "gatsby-plugin-jss": "^5.3.0",
     "gatsby-plugin-postcss": "^6.3.0",
     "gatsby-source-filesystem": "^5.3.1",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.20",
     "prettier": "^2.8.1",
     "react-jss": "^10.9.2",
